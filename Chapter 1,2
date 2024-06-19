@@ -1,0 +1,56 @@
+#Introduction
+
+Purpose: Designing and Analyzing algorithms
+
+
+#Chapter 1.
+
+What is Algorithm?  
+Why is the study of algorithms worthwhile?  
+What is the role of algorithms relative to otehr technolgoies uesed in computers?  
+
+**algorithm: any well-defined computational procedure that takes some value, or set of values,
+**input and **output
+**Computational problem.
+
+An algorithm is said to be correct: for every input instance, it hatls with the correct output. Also, correct algorithm solves the given computational problem.
+
+##Algorithms as technology
+
+Efficincy
+insertion sort: tkaes time roughly equel to c1n^T2, 
+merge sort: takes time roughly equl to c2n lg n
+
+##Algorithms and other technologies
+
+# Chapter 2
+
+/**insertion sort: efficient algorithm for sorting a small number of element
+
+
+initialization, maintanance, termination -> loop
+
+
+2.1-3
+Consider the searching problem:
+Input: A sequence of n numbers A D ha1; a2;:::;ani and a value .
+Output: An index i such that  D AŒi or the special value NIL if  does not
+appear in A.
+Write pseudocode for linear search, which scans through the sequence, looking
+for . Using a loop invariant, prove that your algorithm is correct. Make sure that
+your loop invariant fulfills the three necessary properties.
+
+LiNEAR-SEARCH
+1. for i to a.length
+2.  v = A[i]
+3.  while i?0 and A[i] == value
+4.   return i
+5.return NIL
+5.
+
+2.1.4
+Consider the problem of adding two n-bit binary integers, stored in two n-element
+arrays A and B. The sum of the two integers should be stored in binary form in
+2.2 Analyzing algorithms 23
+an .n C 1/-element array C. State the problem formally and write pseudocode for
+adding the two integers.
