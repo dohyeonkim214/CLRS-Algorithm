@@ -1,3 +1,8 @@
+#Principle#
+
+1. Reading CLRS as possible as much.
+2. One Problem for one day 
+
 # CLRS-Algorithm
 
 # Back-end Algorithm
